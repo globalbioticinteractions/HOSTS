@@ -1,0 +1,79 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "file:///home/jorrit/proj/globi/data-new/HOSTS/resource.csv",
+    "dcterms:bibliographicCitation" : "Gaden S. Robinson; Phillip R. Ackery; Ian Kitching; George W Beccaloni; Luis M. Hernández (2023). HOSTS (from HOSTS - a Database of the World's Lepidopteran Hostplants) [Data set resource]. Natural History Museum. https://data.nhm.ac.uk/dataset/hosts/resource/877f387a-36a3-486c-a0c1-b8d5fb69f85a via Natural History Museum (2023). Data Portal query on 1 resources created at 2023-05-24 11:19:42.032183 PID https://doi.org/10.5519/qd.bsucrxdz",
+    "delimiter" : ",",
+    "doi": "10.5519/qd.bsucrxdz",
+    "interactionTypeName": "hostOf",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002453",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "_id",
+        "titles" : "_id",
+        "datatype" : "string"
+      }, {
+        "name" : "Damage",
+        "titles" : "Damage",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamily",
+        "titles" : "Hostplant Family",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenus",
+        "titles" : "Hostplant Genus",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSpecificEpithet",
+        "titles" : "Hostplant Species",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSubspecificEpithet",
+        "titles" : "Hostplant Subspecies/var",
+        "datatype" : "string"
+      }, {
+        "name" : "HOSTS ID",
+        "titles" : "HOSTS ID",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonAuthorship",
+        "titles" : "Insect Author",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonFamily",
+        "titles" : "Insect Family",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonGenus",
+        "titles" : "Insect Genus",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSpecificEpithet",
+        "titles" : "Insect Species",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSubspecificEpithet",
+        "titles" : "Insect Subspecies",
+        "datatype" : "string"
+      }, {
+        "name" : "Lab Rearing",
+        "titles" : "Lab Rearing",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "Location",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}

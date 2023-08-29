@@ -1,0 +1,18 @@
+{
+  "download_id": "6fda2b36-d31a-44bb-a8b9-bfe46f01eb3a",
+  "duration_in_seconds": 4.479181,
+  "end": "2023-07-19T18:29:49.245477",
+  "file_format": "csv",
+  "files": [
+    "resource.csv",
+    "manifest.json"
+  ],
+  "format_args": {},
+  "ignore_empty_fields": false,
+  "query-doi": "10.5519/qd.bsucrxdz",
+  "resources": {},
+  "separate_files": false,
+  "start": "2023-07-19T18:29:44.766296",
+  "total_records": 140485,
+  "transform": {}
+}
